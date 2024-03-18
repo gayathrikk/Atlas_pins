@@ -27,7 +27,7 @@ public class Atlas_Pins {
 		{
 			
 			  DesiredCapabilities dc = DesiredCapabilities.chrome();
-		        URL url = new URL("http://172.20.23.7:5555/wd/hub");
+		        URL url = new URL("http://172.12.20.4444/wd/hub");
 		        driver = new RemoteWebDriver(url, dc);
 		
 		       
